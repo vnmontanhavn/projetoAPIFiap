@@ -1,7 +1,5 @@
 const express = require("express")
 const bcrypt = require("bcrypt");
-const gerartoken = require("../utils/gerartoken")
-const verificartoken = require("../middleware/verificartoken")
 const router = express.Router();
 const Cliente = require("../models/cliente")
 const config= require("../config/settings")
